@@ -1,8 +1,7 @@
 import React from "react";
 
-import AccessAlarmIconRounded from "@material-ui/icons/AccessAlarm";
-import { Box } from "@material-ui/core";
-import AuthenticationButton from "./authentication-button";
+import Navigation from "./Navigation";
+import { Box, Typography } from "@material-ui/core";
 
 const Header = (props) => {
   return (
@@ -12,11 +11,11 @@ const Header = (props) => {
       alignItems="center"
       p={2}
     >
-      <div>nudge.</div>
-      <div>
-        <AuthenticationButton />
-        <AccessAlarmIconRounded color="primary" />
-      </div>
+      <Box>
+        <Typography>{"nudge"}</Typography>
+      </Box>
+
+      <Navigation />
     </Box>
   );
 };
