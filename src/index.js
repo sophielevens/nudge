@@ -9,7 +9,6 @@ import Auth0ProviderWithHistory from "./auth/auth0-provider-with-history";
 import { BrowserRouter as Router } from "react-router-dom";
 
 ReactDOM.render(
-  //need to sort this out https://auth0.com/blog/complete-guide-to-react-user-authentication/
   <Router>
     <Auth0ProviderWithHistory>
       <React.StrictMode>
