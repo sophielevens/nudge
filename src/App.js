@@ -1,20 +1,16 @@
 import "./App.css";
 import Header from "./components/Header.js";
+import AddCard from "./components/AddCard.js";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <header className="App-header">
-        <p className="App-title">Welcome to nudge.</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Add a contact
-        </a>
+        <div className="Page-container">
+          <p className="App-title">Welcome to nudge.</p>
+          <AddCard />
+        </div>
       </header>
     </div>
   );
