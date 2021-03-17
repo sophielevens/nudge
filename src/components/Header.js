@@ -1,6 +1,6 @@
 import React from "react";
 
-import Navigation from "./Navigation";
+import UserNavigation from "./UserNavigation";
 import { Box, Typography } from "@material-ui/core";
 
 const Header = (props) => {
@@ -12,10 +12,11 @@ const Header = (props) => {
       p={2}
     >
       <Box>
-        <Typography>{"nudge"}</Typography>
+        <Typography variant="h6" color="textSecondary">
+          {"nudge."}
+        </Typography>
       </Box>
-
-      <Navigation />
+      <UserNavigation />
     </Box>
   );
 };
