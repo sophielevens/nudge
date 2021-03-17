@@ -4,7 +4,7 @@ import AuthenticationButton from "./AuthenticationButton";
 
 import { Box } from "@material-ui/core";
 
-export const Navigation = () => {
+export const UserNavigation = () => {
   return (
     <Box>
       <AuthenticationButton />
@@ -12,4 +12,4 @@ export const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default UserNavigation;
