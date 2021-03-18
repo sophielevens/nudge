@@ -2,7 +2,7 @@
   "name": "nudge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://{sophielevens}.github.io/{nudge}",
+  "homepage": "https://sophielevens.github.io/nudge",
   "dependencies": {
     "@auth0/auth0-react": "^1.3.0",
     "@material-ui/core": "^4.11.3",
