@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7Bnudge%7D/static/css/main.13f07a5c.chunk.css",
+    "main.js": "/%7Bnudge%7D/static/js/main.2f547074.chunk.js",
+    "main.js.map": "/%7Bnudge%7D/static/js/main.2f547074.chunk.js.map",
+    "runtime-main.js": "/%7Bnudge%7D/static/js/runtime-main.ada93471.js",
+    "runtime-main.js.map": "/%7Bnudge%7D/static/js/runtime-main.ada93471.js.map",
+    "static/js/2.6e462c00.chunk.js": "/%7Bnudge%7D/static/js/2.6e462c00.chunk.js",
+    "static/js/2.6e462c00.chunk.js.map": "/%7Bnudge%7D/static/js/2.6e462c00.chunk.js.map",
+    "static/js/3.2f536e3f.chunk.js": "/%7Bnudge%7D/static/js/3.2f536e3f.chunk.js",
+    "static/js/3.2f536e3f.chunk.js.map": "/%7Bnudge%7D/static/js/3.2f536e3f.chunk.js.map",
+    "index.html": "/%7Bnudge%7D/index.html",
+    "static/css/main.13f07a5c.chunk.css.map": "/%7Bnudge%7D/static/css/main.13f07a5c.chunk.css.map",
+    "static/js/2.6e462c00.chunk.js.LICENSE.txt": "/%7Bnudge%7D/static/js/2.6e462c00.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ada93471.js",
+    "static/js/2.6e462c00.chunk.js",
+    "static/css/main.13f07a5c.chunk.css",
+    "static/js/main.2f547074.chunk.js"
+  ]
+}
