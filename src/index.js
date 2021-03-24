@@ -7,18 +7,18 @@ import { theme } from "./lib/theme";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Auth0Provider } from '@auth0/auth0-react';
 
-const domain = process.env.NUDGE_AUTH_DOMAIN
-const clientId = process.env.NUDGE_APP_AUTH_CLIENT_ID
+const domain = process.env.REACT_APP_AUTH_DOMAIN
+const clientId = process.env.REACT_APP_AUTH_CLIENT_ID
 
 ReactDOM.render(
   <Router>
-    <Auth0Provider domain={domain} clientId={clientId} redirectUri={window.location.origin}>
-      <React.StrictMode>
-        <ThemeProvider theme={theme}>
+    <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <Auth0Provider domain={domain} clientId={clientId} redirectUri={window.location.origin}>
           <App />
-        </ThemeProvider>
-      </React.StrictMode>
-    </Auth0Provider>
+        </Auth0Provider>
+      </ThemeProvider>
+    </React.StrictMode>
   </Router>,
   document.getElementById("root")
 );
